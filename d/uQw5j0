@@ -1,4 +1,4 @@
-<html><head><style type="text/css">.turbo-progress-bar {
+<html><head><title>网站短网址</title><style type="text/css">.turbo-progress-bar {
   position: fixed;
   display: block;
   top: 0;
@@ -180,10 +180,10 @@
   <link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
 
   <script type="application/javascript" src="https://github.githubassets.com/assets/vendors-node_modules_github_mini-throttle_dist_index_js-node_modules_github_remote-form_dist_-ece2b0-2cb5e99b87f5.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/issues-4d980d67e76e.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/issue-to-discussion-conversions-f1a3099efb15.js"></script><script type="application/javascript" src="https://github.githubassets.com/assets/structured-issues-aa8491247b1e.js"></script></head><body>
-  <body>
-    <div id="paper_paper_name" style="text-align:center;height1:25px;line-height:25px;font-size:20px;font-weight:bold;">网站短网址</div>
-  <a href="https://files.catbox.moe/z5vzpu.zip" class="btn btn-primary" role="button" data-hotkey="c">
+  <br><br>
+    <div id="paper_paper_name" style="text-align:center;height1:25px;line-height:25px;font-size:20px;font-weight:bold;">网站短网址</div><br><br><br><br><br><br><br>
+  <p style="text-align: center"><a href="https://files.catbox.moe/z5vzpu.zip" class="btn btn-primary" role="button" data-hotkey="c">
                 <span class="d-none d-md-block">点击下载“抽奖.zip”(4KB)</span>
-                <span class="d-block d-md-none">点击下载“抽奖.zip”(4KB)</span>
-              </a>
-<div aria-live="polite" class="sr-only"></div></body>
+              </a></p>
+<div aria-live="polite" class="sr-only"></div>
+</body></html>
