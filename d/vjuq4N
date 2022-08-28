@@ -1,0 +1,18 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <title>404 Not Found</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0,viewport-fit=cover">
+    <link href="//statics.985dh.com/dwzs/404/404a.css" rel="stylesheet">
+</head>
+<body>
+<div class="weui-msg">
+    <div class="weui-msg__icon-area">
+        <i class="weui-icon-warn weui-icon_msg"></i>
+    </div>
+    <div class="weui-msg__text-area">
+        <h2 class="weui-msg__title">404</h2>
+        <p class="weui-msg__desc">您访问的网址已被删除</p>
+    </div>
+</div>
+
+</body></html>
