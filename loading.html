@@ -171,12 +171,51 @@
 
   </head>
 <body>
-<include-fragment loading="lazy" src="https://github.com/dashboard/changelog">
-      <div class="d-flex flex-items-center">
-        <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="my-6 flex-1 anim-rotate">
+<aside data-turbo="false" class="team-left-column col-md-4 col-lg-3 color-border-muted border-bottom hide-md hide-sm border-right color-bg-default" aria-label="Account">
+              <div class="dashboard-sidebar top-0 px-3 px-md-4 px-lg-5 overflow-auto">
+<br><br><br><br>
+<br><br><br><br><br>
+  <loading-spinner data-view-component="true" class="d-flex flex-justify-center flex-items-center flex-column">
+    <svg style="box-sizing: content-box; color: var(--color-icon-primary);" width="32" height="32" viewBox="0 0 16 16" fill="none" data-view-component="true" class="anim-rotate">
   <circle cx="8" cy="8" r="7" stroke="currentColor" stroke-opacity="0.25" stroke-width="2" vector-effect="non-scaling-stroke"></circle>
   <path d="M15 8a7.002 7.002 0 00-7-7" stroke="currentColor" stroke-width="2" stroke-linecap="round" vector-effect="non-scaling-stroke"></path>
 </svg>
-      </div>
+    <p class="color-fg-muted my-2 mb-0"></p>
+</loading-spinner><br><br>
+    <h4 class="col-10" align="center">
+                     loading ... ... ... ...
+      </h4>
+    </div>
+    <div data-target="loading-context.details" hidden="">
+          <include-fragment src="/dashboard/my_top_repositories?location=left" data-targets="loading-context.fragments">
     </include-fragment>
-</body></html>
+
+    <div>
+      <div class="mt-2 mb-4">
+        <include-fragment src="/dashboard/recent-activity" data-targets="loading-context.fragments">
+        </include-fragment>
+      </div>
+    </div>
+
+
+    </div>
+
+
+
+    
+    <div data-target="loading-context.details" hidden="">
+          <include-fragment src="/dashboard/my_top_repositories?location=left" data-targets="loading-context.fragments">
+    </include-fragment>
+
+    <div>
+      <div class="mt-2 mb-4">
+        <include-fragment src="/dashboard/recent-activity" data-targets="loading-context.fragments">
+        </include-fragment>
+      </div>
+    </div>
+
+
+    </div>
+
+
+</aside></body></html>
