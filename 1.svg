@@ -1,0 +1,193 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" width="200" height="200">   
+	<circle cx="50%" cy="50%" r="40%" stroke-width="30" stroke="#D1D3D7" fill="none">
+		<set attributeName="opacity" to="0" begin="3600s" />
+	</circle>   
+	<circle cx="50%" cy="50%" r="40%" stroke-width="30" stroke="#00A5E0" fill="none" transform="matrix(0,-1,1,0,0,200)" stroke-dasharray="0 502.7">       
+		<animate attributeType="XML" attributeName="stroke-dasharray" from="0" to="502.7" dur="3600s" fill="freeze" repeatCount="1">
+		</animate>   
+		<set attributeName="opacity" to="0" begin="3600s" />
+	</circle>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+		<set attributeName="opacity" to="1" begin="0s" />1:00<set attributeName="opacity" to="0" begin="60s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+		<set attributeName="opacity" to="1" begin="60s" />0:59<set attributeName="opacity" to="0" begin="120s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="120s" />0:58<set attributeName="opacity" to="0" begin="180s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="180s" />0:57<set attributeName="opacity" to="0" begin="240s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="240s" />0:56<set attributeName="opacity" to="0" begin="300s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="300s" />0:55<set attributeName="opacity" to="0" begin="360s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="360s" />0:54<set attributeName="opacity" to="0" begin="420s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="420s" />0:53<set attributeName="opacity" to="0" begin="480s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="480s" />0:52<set attributeName="opacity" to="0" begin="540s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="540s" />0:51<set attributeName="opacity" to="0" begin="600s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="600s" />0:50<set attributeName="opacity" to="0" begin="660s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="660s" />0:49<set attributeName="opacity" to="0" begin="720s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="720s" />0:48<set attributeName="opacity" to="0" begin="780s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="780s" />0:47<set attributeName="opacity" to="0" begin="840s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="840s" />0:46<set attributeName="opacity" to="0" begin="900s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="900s" />0:45<set attributeName="opacity" to="0" begin="960s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="960s" />0:44<set attributeName="opacity" to="0" begin="1020s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1020s" />0:43<set attributeName="opacity" to="0" begin="1080s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1080s" />0:42<set attributeName="opacity" to="0" begin="1140s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1140s" />0:41<set attributeName="opacity" to="0" begin="1200s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1200s" />0:40<set attributeName="opacity" to="0" begin="1260s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1260s" />0:39<set attributeName="opacity" to="0" begin="1320s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1320s" />0:38<set attributeName="opacity" to="0" begin="1380s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1380s" />0:37<set attributeName="opacity" to="0" begin="1440s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1440s" />0:36<set attributeName="opacity" to="0" begin="1500s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1500s" />0:35<set attributeName="opacity" to="0" begin="1560s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1560s" />0:34<set attributeName="opacity" to="0" begin="1620s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1620s" />0:33<set attributeName="opacity" to="0" begin="1680s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1680s" />0:32<set attributeName="opacity" to="0" begin="1740s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1740s" />0:31<set attributeName="opacity" to="0" begin="1800s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1800s" />0:30<set attributeName="opacity" to="0" begin="1860s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1860s" />0:29<set attributeName="opacity" to="0" begin="1920s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1920s" />0:28<set attributeName="opacity" to="0" begin="1980s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="1980s" />0:27<set attributeName="opacity" to="0" begin="2040s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2040s" />0:26<set attributeName="opacity" to="0" begin="2100s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2100s" />0:25<set attributeName="opacity" to="0" begin="2160s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2160s" />0:24<set attributeName="opacity" to="0" begin="2220s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2220s" />0:23<set attributeName="opacity" to="0" begin="2280s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2280s" />0:22<set attributeName="opacity" to="0" begin="2340s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2340s" />0:21<set attributeName="opacity" to="0" begin="2400s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2400s" />0:20<set attributeName="opacity" to="0" begin="2460s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2460s" />0:19<set attributeName="opacity" to="0" begin="2520s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2520s" />0:18<set attributeName="opacity" to="0" begin="2580s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2580s" />0:17<set attributeName="opacity" to="0" begin="2640s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2640s" />0:16<set attributeName="opacity" to="0" begin="2700s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2700s" />0:15<set attributeName="opacity" to="0" begin="2760s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2760s" />0:14<set attributeName="opacity" to="0" begin="2820s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2820s" />0:13<set attributeName="opacity" to="0" begin="2880s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2880s" />0:12<set attributeName="opacity" to="0" begin="2940s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="2940s" />0:11<set attributeName="opacity" to="0" begin="3000s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="3000s" />0:10<set attributeName="opacity" to="0" begin="3060s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="3060s" />0:09<set attributeName="opacity" to="0" begin="3120s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="3120s" />0:08<set attributeName="opacity" to="0" begin="3180s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="3180s" />0:07<set attributeName="opacity" to="0" begin="3240s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="3240s" />0:06<set attributeName="opacity" to="0" begin="3300s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="3300s" />0:05<set attributeName="opacity" to="0" begin="3360s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="3360s" />0:04<set attributeName="opacity" to="0" begin="3420s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="3420s" />0:03<set attributeName="opacity" to="0" begin="3480s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="3480s" />0:02<set attributeName="opacity" to="0" begin="3540s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="3540s" />0:01<set attributeName="opacity" to="0" begin="3600s" />
+	</text>
+	<text x="100" y="100" font-size="32" text-anchor="middle" opacity="0" dominant-baseline="middle">
+	    <set attributeName="opacity" to="1" begin="3600s" />T223360 测试点 1
+	</text>
+</svg>
