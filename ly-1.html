@@ -202,13 +202,13 @@ window.addEventListener('DOMContentLoaded', onLoad);
 <table>
   <thead>
     <tr class="header" id="theader">
-      <th id="nameColumnHeader" tabindex="0" role="button">类型</th>
+      <th id="nameColumnHeader" tabindex="0" role="button">名称</th>
       
       
     </tr>
   </thead>
   <tbody id="tbody">
-  <tr><td data-value="#/"><a class="icon dir" href="#">#/</a></td></tr></tbody>
+  <tr><td data-value="#/"><a class="icon file" href="#">#/</a></td></tr></tbody>
 </table>
 
 
@@ -217,4 +217,4 @@ window.addEventListener('DOMContentLoaded', onLoad);
 <script>var t;function e(t,e){if(!t)throw new Error("Unexpected condition on "+document.location.href+": "+e)}function n(t,n,o){e(typeof n===o,"["+n+"] ("+t+") is not a "+o)}e(!t,"should only include this file once"),t=new class{constructor(){this.data_=null}set data(t){e(!this.data_,"Re-setting data."),this.data_=t}valueExists(t){return t in this.data_}getValue(t){e(this.data_,"No data. Did you remember to include strings.js?");const n=this.data_[t];return e(void 0!==n,"Could not find value for "+t),n}getString(t){const e=this.getValue(t);return n(t,e,"string"),e}getStringF(t,e){const n=this.getString(t);if(!n)return"";const o=Array.prototype.slice.call(arguments);return o[0]=n,this.substituteString.apply(this,o)}substituteString(t,n){const o=arguments;return t.replace(/\$(.|$|\n)/g,(function(t){return e(t.match(/\$[$1-9]/),"Unescaped $ found in localized string."),"$$"===t?"$":o[t[1]]}))}getBoolean(t){const e=this.getValue(t);return n(t,e,"boolean"),e}getInteger(t){const o=this.getValue(t);return n(t,o,"number"),e(o===Math.floor(o),"Number isn't integer: "+o),o}overrideValues(t){e("object"==typeof t,"Replacements must be a dictionary object.");for(const e in t)this.data_[e]=t[e]}},window.loadTimeData=t,console.warn("crbug/1173575, non-JS module files deprecated.");</script><script>loadTimeData.data = {"header":"LOCATION 的索引","headerDateModified":"修改日期","headerName":"名称","headerSize":"大小","language":"zh","parentDirText":"[上级目录]","textdirection":"ltr"};</script><script>(function(){const t={"i18n-content"(t,e,n,o){t.textContent=n.getString(e)},"i18n-values"(t,e,n,r){e.replace(/\s/g,"").split(/;/).forEach((function(l){if(!l)return;const c=l.match(/^([^:]+):(.+)$/);if(!c)throw new Error("malformed i18n-values: "+e);const i=c[1],s=c[2],f=n.getValue(s);if("."===i[0]){const e=i.slice(1).split(".");let l=t;for(;l&&e.length>1;)l=l[e.shift()];if(l&&(l[e]=f,"innerHTML"===e[0]))for(let e=0;e<t.children.length;++e)o(t.children[e],n,r,!1)}else t.setAttribute(i,f)}))}},e=Object.keys(t),n=[""].map((function(t){return t+"["+e.join("], "+t+"[")+"]"})).join(", ");function o(t,e,l,c){if(l.has(t))return;l.add(t);const i=t.querySelectorAll("link[rel=import]");for(let t=0;t<i.length;++t){const n=i[t];n.import&&o(n.import,e,l,c)}const s=t.querySelectorAll("template");for(let t=0;t<s.length;++t){const n=s[t];n.content&&o(n.content,e,l,c)}const f=t instanceof Element;f&&t.webkitMatchesSelector(n)&&r(t,e,l);const u=t.querySelectorAll(n);for(let t=0;t<u.length;++t)r(u[t],e,l);if(c){const e=f?[t]:t.children;if(e)for(let t=0;t<e.length;++t)e[t].setAttribute("i18n-processed","")}}function r(n,o,r){for(let l=0;l<e.length;l++){const c=e[l],i=n.getAttribute(c);null!==i&&t[c](n,i,o,r)}}return{process:function(t,e){o(t,e,new Set,!0)}}})().process(document,loadTimeData);</script>
 <script>onHasParentDirectory();</script>
 
-<div id="ai-assist-root"></div></body></html>
+</body></html>
