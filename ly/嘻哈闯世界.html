@@ -1,0 +1,57 @@
+
+<html><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> 
+<meta name="referrer" content="no-referrer">
+<title></title> 
+<style>
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.video-container {
+  width: 100%;
+  height: 100%;
+}
+
+.video-js2 {
+  width: 100% !important;
+  height: 100% !important;
+  position: absolute !important;
+
+}
+
+</style>
+<link href="https://unpkg.com/video.js@7.17.0/dist/video-js.min.css" rel="stylesheet">
+<link href="/ly/video.css" rel="stylesheet">
+<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+<!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+<script src="https://unpkg.com/flv.js@1.6.2/dist/flv.min.js"></script>
+<script src="https://unpkg.com/video.js@7.17.0/dist/video.min.js"></script>
+<script src="/ly/video.js"></script>
+<script src="https://unpkg.com/video.js@7.17.0/dist/lang/zh-CN.js"></script>
+<script src="https://unpkg.com/videojs-hotkeys@0.2.27/videojs.hotkeys.min.js"></script>
+</head>
+
+<body>
+
+		<video id="my-video" controls="" preload="auto" autoplay="autoplay" webkit-playsinline="true" playsinline="true" class="video-js video-js2" poster="" data-setup="{}">
+			<source src="https://gitee.com/xumengxingwz/xumengxing123.github.io/raw/main/%E5%98%BB%E5%93%88%E9%97%AF%E4%B8%96%E7%95%8C.mp4" type="video/mp4">
+			<p class="vjs-no-js">无法播放，请升级JS或更新支持HTML5的浏览器。
+			</p>
+		</video>
+
+<script>
+videojs('my-video').ready(function() {
+  this.hotkeys({
+    volumeStep: 0.1,
+    seekStep: 5,
+    enableModifiersForNumbers: false
+  });
+});
+</script>
+
+</body></html>
